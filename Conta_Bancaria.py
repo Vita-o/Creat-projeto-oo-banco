@@ -18,7 +18,7 @@ class Conta:
   def saque_valido(self,valor):
     if self.saldo >= valor:
       self.saldo -= valor 
-      # self.add_movimentacao("Saque", valor,)
+      # self.add_movimentacao("Saque", valorr,)
       return True
     return False
   
@@ -26,7 +26,7 @@ class Conta:
   #     data = datetime.datetime.now()
   #     data = data.strftime("%x")
   #     movimentacao = f"{acao} no valor de R${valor} na data {data}"
-  #     self.movimentacao.append(movimentacao)
+  #     self.movimentacao.append(movimentacão)
   def extrato(self):
     print("------------- Extraçao -------------")
     print(f"Conta: {self.numero_conta}\n titular:{self.titular}")
